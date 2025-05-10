@@ -6,31 +6,30 @@ BookShelf — это консольное приложение для управ
 
 Проект использует Clean Architecture для разделения функционала на независимые слои. Это позволяет легко модифицировать и расширять проект.
 
-.
-├── app
-│   ├── cli
-│   │   ├── __init__.py
-│   │   ├── commands.py
-│   │   └── parser.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   └── book.py
-│   ├── services
-│   │   ├── __init__.py
-│   │   └── book_service.py
-│   ├── storage
-│   │   ├── __init__.py
-│   │   └── json_storage.py
-│   └── utils
-│       ├── __init__.py
-│       └── helpers.py
-├── books.json
-├── main.py
-├── README.md
-├── requirements.txt
-└── tests
-    ├── __init__.py
-    └── test_book_service.py
+app/
+├── cli/
+│ ├── init.py
+│ ├── commands.py
+│ └── parser.py
+├── models/
+│ ├── init.py
+│ └── book.py
+├── services/
+│ ├── init.py
+│ └── book_service.py
+├── storage/
+│ ├── init.py
+│ └── json_storage.py
+└── utils/
+├── init.py
+└── helpers.py
+books.json
+main.py
+README.md
+requirements.txt
+tests/
+├── init.py
+└── test_book_service.py
 
 
 
