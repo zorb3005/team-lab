@@ -85,4 +85,4 @@ tests/
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/bookshelf.git
+   git clone https://github.com/zorb3005/team-lab/tree/subproject-order-system
