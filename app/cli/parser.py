@@ -9,6 +9,9 @@ def create_parser():
     delete_parser = subparser.add_parser('delete', help='Delete a book')
     delete_parser.add_argument('title', help='The book title')
 
+    get_parser = subparser.add_parser("get", help="Show book by title")
+    get_parser.add_argument("title", help="Book title")
+
     subparser.add_parser("list", help="Show all books")
 
     return parser

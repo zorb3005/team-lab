@@ -11,6 +11,8 @@ def main():
         commands.delete_book(args.title)
     elif args.command == "list":
         commands.list_books()
+    elif args.command == "get":
+        commands.get_book(args.title)
     else:
         parser.print_help()
 

@@ -27,3 +27,9 @@ def list_books():
     else:
         for book in books:
             print(f"- {book}")
+def get_book(title, storage):
+    books = storage.read()
+    if title in books:
+        print(f"A book was found: {title}")
+    else:
+        print("Book not found.")
