@@ -12,3 +12,4 @@ def create_parser():
     subparser.add_parser("list", help="Show all books")
 
     return parser
+
