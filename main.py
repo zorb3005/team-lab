@@ -1,5 +1,5 @@
 from app.cli.parser import create_parser
-from app.cli import commands
+from app.services import book_service
 
 def main():
     parser = create_parser()
